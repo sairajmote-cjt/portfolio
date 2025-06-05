@@ -3,23 +3,7 @@ import { ref } from 'vue'
 import { RouterLink } from 'vue-router'
 import HeroBlockText from '../components/HeroBlockText.vue'
 import { ExternalLink, Check, Mail, ArrowDown } from 'lucide-vue-next'
-const projects = [
-  {
-    name: 'Think Circular',
-    image: `/src/assets/think-circular-logo.svg`,
-    tags: ['Branding', 'UI/UX', 'Illustration', 'Wix'],
-    description: `End-to-end project for a circular fashion platform – from brand identity and custom illustrations to full website design and Wix implementation.
-    `,
-    link: 'https://www.think-circular.co.uk/',
-  },
-  {
-    name: 'Cookie Jar Tech',
-    image: `/src/assets/cjt-logo.svg`,
-    tags: ['Branding', 'UI/UX', 'Illustration', 'Webflow'],
-    description: `A fun, bold website built for Cookie Jar Tech — a platform connecting tech specialists with companies, minus the HR drama.`,
-    link: 'https://www.cookiejartech.lt/',
-  },
-]
+import projects from '../data/projects.json'
 
 let mailCopied = ref(false)
 function copyEmail() {
@@ -78,7 +62,7 @@ function copyEmail() {
         >
           <img
             class="max-w-[12rem] aspect-square bg-gray-100 object-contain p-8 rounded-xl"
-            :src="project.image"
+            :src="project.thumbnail"
             :alt="project.name"
           />
           <h2 class="text-2xl font-bold">
@@ -94,14 +78,19 @@ function copyEmail() {
             </p>
           </div>
           <p class="text-gray-700 text-lg whitespace-pre-line">{{ project.description }}</p>
-          <a
-            v-if="project.link"
-            :href="project.link"
-            target="_blank"
-            class="flex items-center gap-2 button self-start"
-            >Live
-            <ExternalLink class="inline-block" size="20" />
-          </a>
+          <div class="flex gap-2">
+            <a
+              v-if="project.link"
+              :href="project.link"
+              target="_blank"
+              class="flex items-center gap-2 button self-start"
+              >Live
+              <ExternalLink class="inline-block" size="20" />
+            </a>
+            <RouterLink :to="`/projects/${project.id}`" class="button self-start"
+              >Read more</RouterLink
+            >
+          </div>
         </li>
       </ul>
     </div>

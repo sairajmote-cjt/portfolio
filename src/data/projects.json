@@ -1,0 +1,47 @@
+[
+  {
+    "id": "think-circular",
+    "name": "Think Circular",
+    "thumbnail": "/src/assets/think-circular-logo.svg",
+    "tags": ["Branding", "UI/UX", "Illustration", "Wix"],
+    "description": "End-to-end project for a circular fashion platform – from brand identity and custom illustrations to full website design and Wix implementation.",
+    "link": "https://www.think-circular.co.uk/",
+    "heroImage": "/src/assets/think-circular-hero.png",
+    "role": "UI/UX Designer, Illustrator, Front-End Developer",
+    "platform": "Wix",
+    "overview": "Think Circular is a UK-based initiative dedicated to transforming the fashion industry through sustainable, circular solutions. Their services include stock exit strategies, de-labeling, re-commerce, recycling, repair, and returns management. The goal was to create a digital platform that effectively communicates these services and engages stakeholders in the circular economy.",
+    "contributions": {
+      "UI/UX Design": "Crafted a user-centric layout that guides visitors through the challenges of the fashion industry and Think Circular's solutions. Emphasized clarity and ease of navigation to enhance user engagement.",
+      "Illustration & Graphics": "Designed custom illustrations and icons to visually represent key statistics and services, such as the number of garments produced annually and the impact on the environment. These visuals aid in storytelling and data comprehension.",
+      "Front-End Development": "Implemented the design on the Wix platform, ensuring responsiveness across devices. Utilized Wix's tools to integrate interactive elements and maintain brand consistency throughout the site."
+    },
+    "highlights": [
+      "Impactful Storytelling: The homepage presents compelling statistics, like '150 Billion Garments Produced' and '92 Million Tons of Greenhouse Emissions,' to immediately convey the urgency of the issue.",
+      "Service Breakdown: Each service—Stock Exit, De-Labeling, Re-Commerce, Recycling, Repair, and Returns—is detailed with accompanying visuals, providing clear information on how Think Circular addresses each aspect of the circular economy.",
+      "User Engagement: Integrated a contact form and WhatsApp link to facilitate easy communication, encouraging visitors to take action or seek more information."
+    ],
+    "takeaways": "This project exemplifies the fusion of design and development to create a platform that not only informs but also inspires action. By combining thoughtful UX design, custom illustrations, and responsive development, the website effectively communicates Think Circular's mission and services."
+  },
+  {
+    "id": "cookie-jar-tech",
+    "name": "Cookie Jar Tech",
+    "thumbnail": "/src/assets/cjt-logo.svg",
+    "tags": ["Branding", "UI/UX", "Illustration", "Webflow"],
+    "description": "A fun, bold website built for Cookie Jar Tech — a platform connecting tech specialists with companies, minus the HR drama.",
+    "link": "https://www.cookiejartech.lt/",
+    "heroImage": "/src/assets/cjt-hero.png",
+    "role": "UI/UX Designer, Illustrator, Front-End Developer",
+    "platform": "Webflow",
+    "contributions": {
+      "UI/UX Design": "Designed a bold and approachable layout focused on clarity and fast navigation. The interface is friendly but professional, echoing the company's mission to make hiring stress-free.",
+      "Illustration & Animation": "Created a full set of custom illustrations and iconography to represent services and concepts playfully. Integrated Lottie animations and micro-interactions to bring the brand personality to life.",
+      "Front-End Development": "Developed the entire site using Webflow. Ensured responsive layouts, fluid interactions, and minimal JS where needed for performance. Used Webflow’s native animation features to deliver a lively user experience."
+    },
+    "highlights": [
+      "Strong branding with a fun, modern tone that breaks away from traditional tech hiring platforms.",
+      "Fully animated hero section and interactive illustrations to engage users.",
+      "Highly responsive across all devices, with fluid transitions and subtle micro-interactions."
+    ],
+    "takeaways": "This project showcases the power of combining clear UX strategy, playful yet informative visuals, and performance-optimized development. It proved how branding, design, and motion can elevate a niche service platform into a memorable digital experience."
+  }
+]
