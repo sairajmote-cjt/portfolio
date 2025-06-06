@@ -58,7 +58,7 @@ function copyEmail() {
         <li
           v-for="project in projects"
           :key="project.name"
-          class="flex flex-col gap-4 rounded-xl border p-6 break-inside-avoid"
+          class="flex flex-col gap-4 rounded-xl border p-6 break-inside-avoid mb-4"
         >
           <img
             class="max-w-[12rem] aspect-square bg-gray-100 object-contain p-8 rounded-xl"

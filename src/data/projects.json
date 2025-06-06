@@ -43,5 +43,49 @@
       "Highly responsive across all devices, with fluid transitions and subtle micro-interactions."
     ],
     "takeaways": "This project showcases the power of combining clear UX strategy, playful yet informative visuals, and performance-optimized development. It proved how branding, design, and motion can elevate a niche service platform into a memorable digital experience."
+  },
+  {
+    "id": "olde-worlde",
+    "name": "Olde Worlde",
+    "thumbnail": "/src/assets/olde-worlde-logo.svg",
+    "tags": ["Branding", "UI/UX", "Shopify"],
+    "description": "A nostalgic, artisan-inspired Shopify store for Olde Worlde — offering vintage-style homeware, ironmongery, and lighting with timeless charm.",
+    "link": "https://www.oldeworlde.eu/",
+    "heroImage": "/src/assets/olde-worlde-hero.png",
+    "role": "Brand Designer, UI/UX Designer, Front-End Developer",
+    "platform": "Shopify",
+    "contributions": {
+      "Brand Identity": "Crafted a distinct brand identity that evokes the charm of vintage craftsmanship, including logo, color palette, and typography direction.",
+      "UI/UX Design": "Designed a clean and elegant layout that balances old-world aesthetics with modern usability, focusing on clear product presentation and seamless browsing.",
+      "Front-End Development": "Implemented the design using Shopify's templating system, customizing layouts and styling for responsiveness, and ensuring smooth performance and shopping flow."
+    },
+    "highlights": [
+      "Vintage-inspired branding and visual storytelling throughout the store.",
+      "Well-organized product categories that guide users effortlessly to their needs.",
+      "Fully responsive and accessible experience across all modern devices."
+    ],
+    "takeaways": "Olde Worlde demonstrates how thoughtful design and tailored development can create an ecommerce experience that feels both charming and intuitive. From brand to cart, every detail was crafted to match the warmth and quality of the products themselves."
+  },
+  {
+    "id": "ranchimall-messenger",
+    "name": "RanchiMall Messenger",
+    "thumbnail": "/src/assets/ranchimall-messenger-logo.svg",
+    "tags": ["UI/UX", "Web Components", "Blockchain", "JavaScript"],
+    "description": "A secure, blockchain-based messaging platform offering chat, mail, and multisig transactions—all within a privacy-first, walletless web experience.",
+    "link": "https://ranchimall.github.io/messenger/#/landing",
+    "heroImage": "/src/assets/ranchimall-messenger-hero.png",
+    "role": "UI/UX Designer, Front-End Developer",
+    "platform": "Custom Web App",
+    "contributions": {
+      "UI/UX Design": "Designed an intuitive interface that seamlessly integrates chat, mail, and multisig transaction functionalities, ensuring a user-friendly experience across devices.",
+      "Front-End Development": "Implemented the application using native Web Components and JavaScript, focusing on performance, responsiveness, and a modular architecture.",
+      "Blockchain Integration": "Integrated FLO blockchain features to enable decentralized messaging and multisig transactions without requiring users to download a wallet."
+    },
+    "highlights": [
+      "Seamless integration of chat, mail, and multisig transaction features in a single platform.",
+      "Walletless architecture allowing users to interact with blockchain functionalities directly from the browser.",
+      "Responsive design ensuring optimal user experience across various devices."
+    ],
+    "takeaways": "This project exemplifies the potential of combining blockchain technology with user-centric design to create secure and decentralized communication platforms. It highlights the importance of intuitive UI/UX in facilitating user adoption of complex technologies."
   }
 ]
